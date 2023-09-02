@@ -1,6 +1,6 @@
 {
   "name": "jsonvironment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates environment variables from json file or js object.",
   "main": "index.js",
   "keywords": [
