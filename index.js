@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 
 const splitCaps = (str) => {
     return str.trim()
@@ -32,7 +33,7 @@ const jsonToEnv = (json, parent = null) => {
     }
 }
 
-const config = (json = "./env.json") => {
+const config = (json = path.join(process.cwd(), "env.json")) => {
     if(json instanceof Object){
         jsonToEnv(json);
     }else if(fs.existsSync(json)){
