@@ -1,0 +1,27 @@
+{
+  "name": "jsonvironment",
+  "version": "1.0.0",
+  "description": "Creates environment variables from json file or js object.",
+  "main": "index.js",
+  "keywords": [
+    "env",
+    "dotenv",
+    "environment",
+    "variable",
+    "json"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Kadir Yumlu",
+    "email": "kadiryumlu@outlook.com",
+    "url": "https://kadiryumlu.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadiryumlu/jsonvironment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kadiryumlu/jsonvironment/issues"
+  },
+  "homepage": "https://github.com/kadiryumlu/jsonvironment#readme"
+}
